@@ -6,6 +6,27 @@ MBTIと恋愛MBTIの融合！！
   <meta charset="UTF-8">
   <title>恋愛MBTIアンケート</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  ...
+</head>
+<body>
+  <div class="container">
+    <h1>恋愛MBTIアンケート</h1>
+    <form id="surveyForm">
+      <!-- 質問フォーム -->
+    </form>
+    <div class="result-text" id="resultText" style="display:none;"></div>
+  </div>
+  <script>
+    // JavaScript診断ロジック
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>恋愛MBTIアンケート</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { font-family: 'Arial', sans-serif; background: #f5f5fa; color: #333; margin: 0; }
     .container { max-width: 500px; margin: 40px auto; background: #fff; padding: 24px 32px 32px; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.07); }
