@@ -1,16 +1,16 @@
 # love-system
-MBTIと恋愛MBTIの融合！！
+MBTIと恋愛MBTIのコラボ！！
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>恋愛MBTIアンケート</title>
+  <title>MBTI&lovetype16</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   ...
 </head>
 <body>
   <div class="container">
-    <h1>恋愛MBTIアンケート</h1>
+    <h1>あなたのタイプは？？</h1>
     <form id="surveyForm">
       <!-- 質問フォーム -->
     </form>
@@ -25,7 +25,7 @@ MBTIと恋愛MBTIの融合！！
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>恋愛MBTIアンケート</title>
+  <title>MBTI&lovetype16</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { font-family: 'Arial', sans-serif; background: #f5f5fa; color: #333; margin: 0; }
@@ -62,7 +62,7 @@ MBTIと恋愛MBTIの融合！！
         <option value="ESFP">ESFP</option>
       </select>
 
-      <label style="margin-top:24px;">あなたの恋愛傾向は？</label>
+      <label style="margin-top:24px;">あなたのlove typeは？</label>
       <select name="loveType" required>
         <option value="">選択してください</option>
         <option value="LCRO">LCRO</option>
@@ -83,7 +83,7 @@ MBTIと恋愛MBTIの融合！！
         <option value="FAPO">FAPO</option>
       </select>
 
-      <button type="submit">送信する</button>
+      <button type="submit">送信!!</button>
     </form>
     <div class="result-text" id="resultText" style="display:none;"></div>
   </div>
@@ -146,7 +146,7 @@ MBTIと恋愛MBTIの融合！！
       return `<b>診断結果</b><br>
 あなたのMBTIタイプ「<b>${mbti}</b>」は、${mbtiDesc[mbti] || ""}<br>
 恋愛傾向「<b>${loveType}</b>」は、${loveDesc[loveType] || ""}<br>
-この組み合わせは、あなたらしい恋愛のスタイルを示しています！`;
+この結果をシェア`;
     }
   </script>
 </body>
